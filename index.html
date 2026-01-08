@@ -20,9 +20,9 @@
     // declaration of functions used in <div id="control-bar-container">
     let nbCols=8;
     let nbRows=8;
-    let genData = genGridData(nbRows, nbCols);
+    let genData = genGridValue(nbRows, nbCols);
     function handleOnClickGenerate(){
-        genData = genGridData(nbRows,nbCols);
+        genData = genGridValue(nbRows,nbCols);
         removeMatrix();
         renderMatrix(genData);
     }
